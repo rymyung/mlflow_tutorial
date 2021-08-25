@@ -1,0 +1,8 @@
+name: mnist_tensorflow
+
+entry_points:
+  main:
+    parameters:
+      epochs: {type: int, default: 5}
+      batch_size: {type: int, default: 32}
+    command: "python3 train.py {epochs} {batch_size}"
