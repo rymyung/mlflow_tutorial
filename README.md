@@ -2,7 +2,7 @@
 
 ## mlflow ui 실행
 ```bash
-mlflow ui --port 5000 &
+mlflow ui --port=5000 &
 ```
 
 
